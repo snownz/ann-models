@@ -112,10 +112,6 @@ def run(offset):
 
     sts, pred = RNN(X, weights, biases)
 
-    tf_reset_graph( sess ) 
-
-    sts, pred = RNN(X, weights, biases)
-
     # Loss and optimizer
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=pred, labels=Y))
     optimizer = tf.train.RMSPropOptimizer(learning_rate=learning_rate).minimize(cost)
