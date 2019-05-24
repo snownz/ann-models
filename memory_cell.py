@@ -23,7 +23,7 @@ class MemoryCell(tf.nn.rnn_cell.RNNCell):
         self.f = FullyLayer( self._num_units, "forget_{}".format( name ), act = tf.nn.sigmoid ) # forget memory
         self.i = FullyLayer( self._num_units, "ignore_{}".format( name ), act = tf.nn.sigmoid ) # ignore prediction
         self.o = FullyLayer( self._num_units, "output_{}".format( name ), act = tf.nn.sigmoid ) # output prediction
-        self.c = FullyLayer( self._num_units, "cell_{}".format( name ),   act = tf.nn.tanh    ) # add memory
+        self.c = NaluCell( self._num_units, "cell_{}".format( name ),   act = tf.nn.tanh    ) # add memory
 
         self.fg = FullyLayer( self._num_units, "fg_{}".format( name ), act = tf.nn.sigmoid )
         self.ig = FullyLayer( self._num_units, "ig_{}".format( name ), act = tf.nn.sigmoid )        
