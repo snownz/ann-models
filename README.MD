@@ -1,1 +1,0 @@
-# ANN models and Samples
