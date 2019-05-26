@@ -3,7 +3,7 @@ sys.path.append('../')
 
 import numpy as np
 
-from ai_utils.models.random_network_destilation import RND
+from ann_utils.models.random_network_destilation import RND
 
 class CuriosityAgent:
     def __init__(

@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-from ai_utils.helper import maxpool2d, avgpool2d, dropout, bn
+from ann_utils.helper import maxpool2d, avgpool2d, dropout, bn
 
 class Conv2DLayer(object):
 

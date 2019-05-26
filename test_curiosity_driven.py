@@ -3,8 +3,8 @@ import tensorflow as tf
 import gym
 import matplotlib.pyplot as plt
 
-from ai_utils.sess import TfSess
-from ai_utils.manager import tf_global_initializer
+from ann_utils.sess import TfSess
+from ann_utils.manager import tf_global_initializer
 
 from agents.curiosity_agent import CuriosityAgent
 

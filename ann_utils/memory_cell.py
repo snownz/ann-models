@@ -1,12 +1,12 @@
 import tensorflow as tf
 from tensorflow.python.ops import array_ops
 
-from ai_utils.conv_layer import Conv2DLayer, SeparableConv2DLayer
-from ai_utils.som_layer import SOMLayer
-from ai_utils.fully_layer import FullyLayer
-from ai_utils.helper import flatten, l2
-from ai_utils.nalu_cell import NaluCell
-from ai_utils.nac_cell import NacCell
+from ann_utils.conv_layer import Conv2DLayer, SeparableConv2DLayer
+from ann_utils.som_layer import SOMLayer
+from ann_utils.fully_layer import FullyLayer
+from ann_utils.helper import flatten, l2
+from ann_utils.nalu_cell import NaluCell
+from ann_utils.nac_cell import NacCell
 
 class MemoryCell(tf.nn.rnn_cell.RNNCell):
 

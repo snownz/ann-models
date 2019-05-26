@@ -1,10 +1,10 @@
 import tensorflow as tf
 from tensorflow.python.ops import array_ops
 
-from ai_utils.fully_layer import FullyLayer
-from ai_utils.helper import flatten
-from ai_utils.nalu_cell import NaluCell
-from ai_utils.nac_cell import NacCell
+from ann_utils.fully_layer import FullyLayer
+from ann_utils.helper import flatten
+from ann_utils.nalu_cell import NaluCell
+from ann_utils.nac_cell import NacCell
 
 class NaluLSTMCell(tf.nn.rnn_cell.RNNCell):
 

@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
-from ai_utils.helper import dropout, bn
-from ai_utils.nac_cell import NacCell
+from ann_utils.helper import dropout, bn
+from ann_utils.nac_cell import NacCell
 
 class NaluCell(object):
 

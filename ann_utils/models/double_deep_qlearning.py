@@ -3,9 +3,9 @@ sys.path.append('../../')
 
 import tensorflow as tf
 
-from ai_utils.interfaces.graph_interface import GraphInterface 
-from ai_utils.fully_layer import FullyLayer 
-from ai_utils.helper import gelu 
+from ann_utils.interfaces.graph_interface import GraphInterface 
+from ann_utils.fully_layer import FullyLayer 
+from ann_utils.helper import gelu 
 
 class DDQL( GraphInterface ):
 

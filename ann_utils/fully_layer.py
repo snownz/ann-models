@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-from ai_utils.helper import dropout
+from ann_utils.helper import dropout
 
 class FullyLayer(object):
 

@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
-from ai_utils.helper import flatten, avgpool2d
-from ai_utils.som_layer import SOMLayer
+from ann_utils.helper import flatten, avgpool2d
+from ann_utils.som_layer import SOMLayer
 
 class StackedMemoryBlock(object):
 

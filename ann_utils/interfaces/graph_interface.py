@@ -4,7 +4,7 @@ sys.path.append('../')
 import numpy as np
 import tensorflow as tf
 
-from ai_utils.manager import tf_load, tf_save
+from ann_utils.manager import tf_load, tf_save
 
 class GraphInterface:
 
